@@ -1,0 +1,112 @@
+
+body {
+    background: linear-gradient(135deg, #fff8f2 0%, #f0f8ff 45%, #ecfffd 100%);
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    color: #b82e7f;
+    margin: 0 auto;
+    padding: 25px 20px 5px;
+    animation: slideDown 0.9s ease-out;
+}
+
+header h1 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+header p {
+    margin: 8px 0 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px 18px 40px;
+}
+
+main video {
+    width: 60%;
+    max-height: 550px;
+    object-fit: cover;
+    border-radius: 14px;
+    border: 3px solid #ffe9f5;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    display: block;
+    animation: slideUp 1s ease forwards;
+}
+
+section h3 {
+    margin-top: 40px;
+    text-align: center;
+    color: #822e71;
+    font-size: 2.0rem;
+}
+
+
+ .mensagem{
+    background: rgba(255, 255, 255, 0.86);
+    border-radius: 14px;
+    padding: 18px;
+    margin: 20px 0;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.07);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #4d4dbe;
+    
+}
+
+.frase {
+text-align: center;
+font-size: 1.2rem;
+}
+
+
+footer {
+    text-align: center;
+    color: #555;
+    padding: 12px 10px 20px;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 640px) {
+    header nav {
+        gap: 8px;
+    }
+
+
+    main img {
+        max-height: 260px;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
