@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient(135deg, #fff8f2 0%, #f0f8ff 45%, #ecfffd 100%);
+    background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 45%, #e1bee7 100%);
     font-family: 'Segoe UI', Roboto, Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 header {
     text-align: center;
-    color: #b82e7f;
+    color: #c2185b;
     margin: 0 auto;
     padding: 25px 20px 5px;
     animation: slideDown 0.9s ease-out;
@@ -38,7 +38,7 @@ main video {
     max-height: 550px;
     object-fit: cover;
     border-radius: 14px;
-    border: 3px solid #ffe9f5;
+    border: 3px solid #f7f3f5;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     margin: 0 auto;
     display: block;
@@ -48,20 +48,21 @@ main video {
 section h3 {
     margin-top: 40px;
     text-align: center;
-    color: #822e71;
+    color: #ad1457;
     font-size: 2.0rem;
 }
 
 
  .mensagem{
-    background: rgba(255, 255, 255, 0.86);
+    background: rgba(248, 213, 246, 0.86);
     border-radius: 14px;
+    border: 3px solid #f7f3f5;
     padding: 18px;
     margin: 20px 0;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.07);
     font-size: 1.1rem;
     font-weight: 600;
-    color: #4d4dbe;
+    color: #f17ca7;
     
 }
 
@@ -73,7 +74,7 @@ font-size: 1.2rem;
 
 footer {
     text-align: center;
-    color: #555;
+    color: #313131;
     padding: 12px 10px 20px;
     font-size: 0.95rem;
 }
